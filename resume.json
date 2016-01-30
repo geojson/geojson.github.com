@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Jason Roebuck",
+    "label": "Geospatial Software Developer",
+    "picture": "http://www.roebuckgis.com/headshot.jpg",
+    "email": "geojson@me.com",
+    "phone": "(256) 786-9276",
+    "website": "",
+    "summary": "I'm passionate about technology, people, and lifelong learning.",
+    "location": {
+      "address": "414 West Ashby Drive",
+      "postalCode": "ID 83646",
+      "city": "Meridian",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jtroe",
+        "url": "http://github.com/jtroe"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "geojson",
+        "url": "http://linkedin.com/in/geojson"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resource Data, Inc.",
+      "position": "Senior GIS Programmer/Analyst",
+      "website": "http://www.resdat.com",
+      "startDate": "2012-12-03",
+      "summary": "I develop custom GIS business solutions using industry best-practices",
+      "highlights": [
+        "Lead GIS Developer at J.R. Simplot Company's Boise, Idaho headquarters since May 2015; worked with GIS analysis team and internal infrastructure team to upgrade ArcGIS Server and implement Portal for ArcGIS; Currently developing automated imagery processing solution to monitor crop health",
+        "Lead GIS Developer for Alaska Gasline Development Corporation from January 2013 through May 2015; developed and maintained custom GIS web portal which provides access to webmaps and metadata from Enterprise GIS infrastructure; directed infrastructure team in proper maintenance of GIS assets; provided recommendations to business; implemented and followed industry standards for data maintenance and development workflows.",
+        "Ongoing systems administration and maintenance for an office of 30 employees"
+      ]
+    },
+    {
+      "company": "City of Auburn",
+      "position": "GIS Programmer/Analyst",
+      "website": "http://www.auburnalabama.org",
+      "startDate": "2012-01-01",
+      "endDate": "2012-11-30",
+      "summary": "Chiefly responsible for city's interactive mapping applications. During my time at the city, we deployed a new general-purpose, public-facing web application.  Created a new data-driven enterprise mapping application for water department to better manage city's water quality data, replacing a legacy spreadsheet and manual mapping and sharing process.",
+      "highlights": []
+    },
+    {
+      "company": "Alexander City, Public Works",
+      "position": "GIS Coordinator",
+      "website": "http://www.alexandercityonline.com",
+      "startDate": "2011-04-01",
+      "endDate": "2012-02-15",
+      "summary": "Responsible for city-wide GIS effort. Led campaign to reorganize City's Information Technology services. Instrumental in making key design decisions. Laid foundation for city's eventual adoption of enterprise GIS.",
+      "highlights": []
+    },
+    {
+      "company": "BYU Harold B. Lee Library",
+      "position": "GIS Specialist",
+      "website": "http://lib.byu.edu/",
+      "startDate": "2010-03-01",
+      "endDate": "2010-04-10",
+      "summary": "Designed and began implementation and testing on an ArcGIS Server deployment for campus library, including both web and database model. Worked directly with Geospatial Librarian to understand technological capabilities of GIS within the library environment.",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "C#.NET",
+        "Ruby",
+        "Python",
+        "Javascript",
+        "T-SQL",
+        "Java"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Jenkins CI",
+        "Git/GitHub",
+        "Rake",
+        "MSBuild",
+        "GIS service management",
+        "GIS data management routines",
+        "TFS"
+      ]
+    },
+    {
+      "name": "Systems Administration",
+      "level": "",
+      "keywords": [
+        "Microsoft SQL Server 2008+",
+        "Windows Server",
+        "ArcGIS Server"
+      ]
+    },
+    {
+      "name": "GIS",
+      "level": "",
+      "keywords": [
+        "ESRI ArcGIS 9-10.3",
+        "arcpy Python library",
+        "ArcGIS Server 9-10.3",
+        "ArcSDE Geodatabase",
+        "Enterprise GIS architecture",
+        "Leaflet"
+      ]
+    },
+    {
+      "name": "Web/App Development",
+      "level": "",
+      "keywords": [
+        "Angular 1.4.x",
+        "XAML (WPF/Silverlight)",
+        "HTML/JS/CSS",
+        "Nancy",
+        "Visual Studio"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Brigham Young University",
+      "area": "Geography",
+      "studyType": "Bachelor",
+      "startDate": "2005-08-01",
+      "endDate": "2011-04-01",
+      "gpa": "3.04",
+      "courses": [
+        "Geog 100 - The Geographic Approach",
+        "Geog 101 - Global Environment",
+        "Geog 120 - World Regional Geography",
+        "Geog 130 - Cultural Geography I",
+        "CS 142 - Object-Oriented Programming",
+        "Geog 211 - Map Use and Interpretation",
+        "Geog 212 - Intro to GIS",
+        "Geog 213 - Intro to Remote Sensing",
+        "Geog 217 - Programming for Geographers I",
+        "Geog 222 - Geostatistics I",
+        "Geog 250 - US & Canada Geography",
+        "Geog 304 - Geography of Climates",
+        "Geog 311 - GIS Data Management",
+        "Geog 312 - Cartographic Design",
+        "Geog 313 - Remote Sensing I",
+        "Geog 317 - Programming for Geographers II",
+        "Geog 322 - Geostatistics II",
+        "Geog 347 - Geography of Tourism",
+        "Geog 521R - GIS Practicum (Programming III)"
+      ]
+    }
+  ]
+}
