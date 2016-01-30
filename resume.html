@@ -198,7 +198,7 @@ h2.section-title {
 	margin-bottom: 5px;
 }
 
-#skills .item, .courses {
+#skills .item {
 	display:inline-block;
 	vertical-align:top;
 	margin-right:2em;
@@ -210,6 +210,31 @@ h2.section-title {
 	margin-right:1em;
 }
 
+.keywords {
+	display: inline;
+	list-style: none;
+	list-style-type: none;
+	list-style-position:inside;
+    margin:0;
+    padding:0; 
+}
+
+.keywords li {
+	display: inline;
+	list-style-type: none;
+	list-style-position:inside;
+    margin:0;
+    padding:0; 
+}
+
+.keywords li:after {
+	content: ", ";
+}
+
+.keywords li:last-child:after {
+	content: "";
+}
+
 icon.large {
     font-size: 2em;
     color: #fff;
@@ -219,6 +244,18 @@ icon.large {
     margin-top: 0px;
     display:block;
     width:50px;
+}
+
+@media print {
+       body {
+          transform: scale(1.2);
+          transform-origin: 0% 0%;
+          // add prefixed versions too.
+       }
+
+       #hbll {
+       	page-break-before: always;
+       }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -247,18 +284,6 @@ icon.large {
 	.avatar {
 		margin-top:0px;
 		max-width:100%;
-	}
-}
-
-@media print {
-	body {
-	   transform: scale(1.2);
-	   transform-origin: 0% 0%;
-	   // add prefixed versions too.
-	}
-
-	#hbll {
-		page-break-before: always;
 	}
 }
 
@@ -513,7 +538,7 @@ icon.large {
 						<div class="contact">
 							<div class="email">
 								<icon class="entypo-mail"></icon>
-								<a href="/cdn-cgi/l/email-protection#bcdbd9d3d6cfd3d2fcd1d992dfd3d1"><span class="__cf_email__" data-cfemail="197e7c76736a767759747c377a7674">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+								<a href="/cdn-cgi/l/email-protection#f69193999c859998b69b93d895999b"><span class="__cf_email__" data-cfemail="eb8c8e8481988485ab868ec5888486">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
 							</div>
 							<div class="phone">
@@ -573,7 +598,7 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2012-12-03
+						12/2012
 					</span>
 					<span class="endDate">
 						- Present
@@ -586,9 +611,9 @@ icon.large {
 					<p>I develop custom GIS business solutions using industry best-practices</p>
 				</div>
 				<ul class="highlights">
-					<li>Lead GIS Developer at J.R. Simplot Company&#x27;s Boise, Idaho headquarters since May 2015; worked with GIS analysis team and internal infrastructure team to upgrade ArcGIS Server and implement Portal for ArcGIS; Currently developing automated imagery processing solution to monitor crop health</li>
+					<li>Lead GIS Developer at J.R. Simplot Company&#x27;s Boise, Idaho headquarters since May 2015; worked with GIS analysis team and internal infrastructure team to upgrade ArcGIS Server and implement Portal for ArcGIS; Currently developing automated imagery processing solution to monitor crop health.</li>
 					<li>Lead GIS Developer for Alaska Gasline Development Corporation from January 2013 through May 2015; developed and maintained custom GIS web portal which provides access to webmaps and metadata from Enterprise GIS infrastructure; directed infrastructure team in proper maintenance of GIS assets; provided recommendations to business; implemented and followed industry standards for data maintenance and development workflows.</li>
-					<li>Ongoing systems administration and maintenance for an office of 30 employees</li>
+					<li>Systems Administrator for local RDI office; maintained 30 workstations, 5 physical servers, and over 30 virtual machines.</li>
 				</ul>
 			</div>
 			<div class="item">
@@ -600,17 +625,17 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2012-01-01
+						1/12
 					</span>
 					<span class="endDate">
-						- 2012-11-30
+						- 11/12
 					</span>
 				</div>
 				<div class="website">
 					<a href="http://www.auburnalabama.org">http://www.auburnalabama.org</a>
 				</div>
 				<div class="summary">
-					<p>Chiefly responsible for city&#x27;s interactive mapping applications. During my time at the city, we deployed a new general-purpose, public-facing web application.  Created a new data-driven enterprise mapping application for water department to better manage city&#x27;s water quality data, replacing a legacy spreadsheet and manual mapping and sharing process.</p>
+					<p>Chiefly responsible for city&#x27;s interactive mapping applications. Led deployment of a new general-purpose, public-facing web application.  Created a new data-driven enterprise mapping application for water department to better manage city&#x27;s water quality data, replacing a legacy spreadsheet and manual mapping and sharing process.</p>
 				</div>
 			</div>
 			<div class="item">
@@ -622,10 +647,10 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2011-04-01
+						4/11
 					</span>
 					<span class="endDate">
-						- 2012-02-15
+						- 2/12
 					</span>
 				</div>
 				<div class="website">
@@ -636,7 +661,7 @@ icon.large {
 				</div>
 			</div>
 			<div class="item" id="hbll">
-			<br />
+				<br />
 				<h3 class="name">
 					BYU Harold B. Lee Library
 				</h3>
@@ -645,10 +670,10 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						2010-03-01
+						3/09
 					</span>
 					<span class="endDate">
-						- 2010-04-10
+						- 4/10
 					</span>
 				</div>
 				<div class="website">
@@ -661,7 +686,7 @@ icon.large {
 		</div>
 	</section>
 
-	<section id="skills" class="row">
+		<section id="skills" class="row">
 		<div class="col-sm-4">
 			<div class="row">
 				<div class="col-xs-2">
@@ -749,39 +774,13 @@ icon.large {
 					<h4>Bachelor of Science</h4>
 				</div>
 				<div class="date">
-					<span class="startDate">
-						2005-08-01
-					</span>
 					<span class="endDate">
-						- 2011-04-01
+						Graduated 4/11
 					</span>
 				</div>
-				<div class="gpa">
-					GPA: 3.04
-				</div>
-				<ul class="courses">
-					<li>CS 142 - Object-Oriented Programming</li>
-					<li>Geog 211 - Map Use and Interpretation</li>
-					<li>Geog 212 - Intro to GIS</li>
-					<li>Geog 213 - Intro to Remote Sensing</li>
-					<li>Geog 217 - Programming for Geographers I</li>
-					<li>Geog 222 - Geostatistics I</li>
-				</ul>
-				<ul class="courses">
-					<li>Geog 311 - GIS Data Management</li>
-					<li>Geog 312 - Cartographic Design</li>
-					<li>Geog 313 - Remote Sensing I</li>
-					<li>Geog 317 - Programming for Geographers II</li>
-					<li>Geog 322 - Geostatistics II</li>
-					<li>Geog 521R - GIS Practicum (Programming III)</li>
-				</ul>
 			</div>
 		</div>
 	</section>
-
-
-
-
 	</div>
 
 	<script type="text/javascript">
