@@ -5,14 +5,12 @@
     "picture": "http://www.roebuckgis.com/headshot.jpg",
     "email": "geojson@me.com",
     "phone": "(256) 786-9276",
-    "website": "",
     "summary": "I'm passionate about technology, people, and lifelong learning.",
     "location": {
       "address": "414 West Ashby Drive",
       "postalCode": "ID 83646",
       "city": "Meridian",
-      "countryCode": "US",
-      "region": ""
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -46,8 +44,7 @@
       "website": "http://www.auburnalabama.org",
       "startDate": "2012-01-01",
       "endDate": "2012-11-30",
-      "summary": "Chiefly responsible for city's interactive mapping applications. During my time at the city, we deployed a new general-purpose, public-facing web application.  Created a new data-driven enterprise mapping application for water department to better manage city's water quality data, replacing a legacy spreadsheet and manual mapping and sharing process.",
-      "highlights": []
+      "summary": "Chiefly responsible for city's interactive mapping applications. During my time at the city, we deployed a new general-purpose, public-facing web application.  Created a new data-driven enterprise mapping application for water department to better manage city's water quality data, replacing a legacy spreadsheet and manual mapping and sharing process."
     },
     {
       "company": "Alexander City, Public Works",
@@ -55,8 +52,7 @@
       "website": "http://www.alexandercityonline.com",
       "startDate": "2011-04-01",
       "endDate": "2012-02-15",
-      "summary": "Responsible for city-wide GIS effort. Led campaign to reorganize City's Information Technology services. Instrumental in making key design decisions. Laid foundation for city's eventual adoption of enterprise GIS.",
-      "highlights": []
+      "summary": "Responsible for city-wide GIS effort. Led campaign to reorganize City's Information Technology services. Instrumental in making key design decisions. Laid foundation for city's eventual adoption of enterprise GIS."
     },
     {
       "company": "BYU Harold B. Lee Library",
@@ -64,14 +60,12 @@
       "website": "http://lib.byu.edu/",
       "startDate": "2010-03-01",
       "endDate": "2010-04-10",
-      "summary": "Designed and began implementation and testing on an ArcGIS Server deployment for campus library, including both web and database model. Worked directly with Geospatial Librarian to understand technological capabilities of GIS within the library environment.",
-      "highlights": []
+      "summary": "Designed and began implementation and testing on an ArcGIS Server deployment for campus library, including both web and database model. Worked directly with Geospatial Librarian to understand technological capabilities of GIS within the library environment."
     }
   ],
   "skills": [
     {
       "name": "Languages",
-      "level": "",
       "keywords": [
         "C#.NET",
         "Ruby",
@@ -83,7 +77,6 @@
     },
     {
       "name": "DevOps",
-      "level": "",
       "keywords": [
         "Jenkins CI",
         "Git/GitHub",
@@ -95,17 +88,7 @@
       ]
     },
     {
-      "name": "Systems Administration",
-      "level": "",
-      "keywords": [
-        "Microsoft SQL Server 2008+",
-        "Windows Server",
-        "ArcGIS Server"
-      ]
-    },
-    {
       "name": "GIS",
-      "level": "",
       "keywords": [
         "ESRI ArcGIS 9-10.3",
         "arcpy Python library",
@@ -116,8 +99,15 @@
       ]
     },
     {
+      "name": "Systems Administration",
+      "keywords": [
+        "Microsoft SQL Server 2008+",
+        "Windows Server",
+        "ArcGIS Server"
+      ]
+    },
+    {
       "name": "Web/App Development",
-      "level": "",
       "keywords": [
         "Angular 1.4.x",
         "XAML (WPF/Silverlight)",
@@ -130,30 +120,23 @@
   "education": [
     {
       "institution": "Brigham Young University",
-      "area": "Geography",
-      "studyType": "Bachelor",
+      "area": "Geography, Geographic Information Systems",
+      "studyType": "Bachelor of Science",
       "startDate": "2005-08-01",
       "endDate": "2011-04-01",
       "gpa": "3.04",
       "courses": [
-        "Geog 100 - The Geographic Approach",
-        "Geog 101 - Global Environment",
-        "Geog 120 - World Regional Geography",
-        "Geog 130 - Cultural Geography I",
         "CS 142 - Object-Oriented Programming",
         "Geog 211 - Map Use and Interpretation",
         "Geog 212 - Intro to GIS",
         "Geog 213 - Intro to Remote Sensing",
         "Geog 217 - Programming for Geographers I",
         "Geog 222 - Geostatistics I",
-        "Geog 250 - US & Canada Geography",
-        "Geog 304 - Geography of Climates",
         "Geog 311 - GIS Data Management",
         "Geog 312 - Cartographic Design",
         "Geog 313 - Remote Sensing I",
         "Geog 317 - Programming for Geographers II",
         "Geog 322 - Geostatistics II",
-        "Geog 347 - Geography of Tourism",
         "Geog 521R - GIS Practicum (Programming III)"
       ]
     }

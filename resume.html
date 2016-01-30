@@ -198,7 +198,7 @@ h2.section-title {
 	margin-bottom: 5px;
 }
 
-#skills .item {
+#skills .item, .courses {
 	display:inline-block;
 	vertical-align:top;
 	margin-right:2em;
@@ -247,6 +247,18 @@ icon.large {
 	.avatar {
 		margin-top:0px;
 		max-width:100%;
+	}
+}
+
+@media print {
+	body {
+	   transform: scale(1.2);
+	   transform-origin: 0% 0%;
+	   // add prefixed versions too.
+	}
+
+	#hbll {
+		page-break-before: always;
 	}
 }
 
@@ -501,7 +513,7 @@ icon.large {
 						<div class="contact">
 							<div class="email">
 								<icon class="entypo-mail"></icon>
-								<a href="/cdn-cgi/l/email-protection#2146444e4b524e4f614c440f424e4c"><span class="__cf_email__" data-cfemail="1572707a7f667a7b5578703b767a78">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+								<a href="/cdn-cgi/l/email-protection#bcdbd9d3d6cfd3d2fcd1d992dfd3d1"><span class="__cf_email__" data-cfemail="197e7c76736a767759747c377a7674">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
 							</div>
 							<div class="phone">
@@ -623,7 +635,8 @@ icon.large {
 					<p>Responsible for city-wide GIS effort. Led campaign to reorganize City&#x27;s Information Technology services. Instrumental in making key design decisions. Laid foundation for city&#x27;s eventual adoption of enterprise GIS.</p>
 				</div>
 			</div>
-			<div class="item">
+			<div class="item" id="hbll">
+			<br />
 				<h3 class="name">
 					BYU Harold B. Lee Library
 				</h3>
@@ -648,7 +661,6 @@ icon.large {
 		</div>
 	</section>
 
-	
 	<section id="skills" class="row">
 		<div class="col-sm-4">
 			<div class="row">
@@ -685,14 +697,6 @@ icon.large {
 				</ul>
 			</div>
 			<div class="item">
-				<h3 class="name">Systems Administration</h3>
-				<ul class="keywords">
-					<li>Microsoft SQL Server 2008+</li>
-					<li>Windows Server</li>
-					<li>ArcGIS Server</li>
-				</ul>
-			</div>
-			<div class="item">
 				<h3 class="name">GIS</h3>
 				<ul class="keywords">
 					<li>ESRI ArcGIS 9-10.3</li>
@@ -701,6 +705,14 @@ icon.large {
 					<li>ArcSDE Geodatabase</li>
 					<li>Enterprise GIS architecture</li>
 					<li>Leaflet</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3 class="name">Systems Administration</h3>
+				<ul class="keywords">
+					<li>Microsoft SQL Server 2008+</li>
+					<li>Windows Server</li>
+					<li>ArcGIS Server</li>
 				</ul>
 			</div>
 			<div class="item">
@@ -715,7 +727,6 @@ icon.large {
 			</div>
 		</div>
 	</section>
-
 
 	<section id="education" class="row">
 		<div class="col-sm-4">
@@ -732,10 +743,10 @@ icon.large {
 			<div class="item">
 				<h3 class="institution">Brigham Young University</h3>
 				<div class="area">
-					<p class="lead">Geography</p>
+					<p class="lead">Geography, Geographic Information Systems</p>
 				</div>
 				<div class="studyType">
-					<h4>Bachelor</h4>
+					<h4>Bachelor of Science</h4>
 				</div>
 				<div class="date">
 					<span class="startDate">
@@ -749,29 +760,26 @@ icon.large {
 					GPA: 3.04
 				</div>
 				<ul class="courses">
-					<li>Geog 100 - The Geographic Approach</li>
-					<li>Geog 101 - Global Environment</li>
-					<li>Geog 120 - World Regional Geography</li>
-					<li>Geog 130 - Cultural Geography I</li>
 					<li>CS 142 - Object-Oriented Programming</li>
 					<li>Geog 211 - Map Use and Interpretation</li>
 					<li>Geog 212 - Intro to GIS</li>
 					<li>Geog 213 - Intro to Remote Sensing</li>
 					<li>Geog 217 - Programming for Geographers I</li>
 					<li>Geog 222 - Geostatistics I</li>
-					<li>Geog 250 - US &amp; Canada Geography</li>
-					<li>Geog 304 - Geography of Climates</li>
+				</ul>
+				<ul class="courses">
 					<li>Geog 311 - GIS Data Management</li>
 					<li>Geog 312 - Cartographic Design</li>
 					<li>Geog 313 - Remote Sensing I</li>
 					<li>Geog 317 - Programming for Geographers II</li>
 					<li>Geog 322 - Geostatistics II</li>
-					<li>Geog 347 - Geography of Tourism</li>
 					<li>Geog 521R - GIS Practicum (Programming III)</li>
 				</ul>
 			</div>
 		</div>
 	</section>
+
+
 
 
 	</div>
