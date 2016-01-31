@@ -55,7 +55,7 @@ h2.section-title {
 }
 
 #card {
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
 }
 
 #card h2 {
@@ -248,9 +248,17 @@ icon.large {
 
 @media print {
        body {
-          transform: scale(1.2);
+          transform: scale(1.15);
           transform-origin: 0% 0%;
-          // add prefixed versions too.
+       }
+
+       a[href]:after {
+       	content: none !important;
+       }
+
+       a[data-href]:after {
+       	content: "(" attr(data-href) ")";
+       	position: absolute;
        }
 
        #hbll {
@@ -557,12 +565,12 @@ icon.large {
 						</section>
 						<section id="profiles">
 							<div class="item">
-								<a href="http://github.com/jtroe">
+								<a href="http://github.com/jtroe" data-href="jtroe">
 								<icon class="entypo-github"></icon>
 								</a>
 							</div>
 							<div class="item">
-								<a href="http://linkedin.com/in/geojson">
+								<a href="http://linkedin.com/in/geojson" data-href="geojson">
 								<icon class="entypo-linkedin"></icon>
 								</a>
 							</div>
@@ -584,7 +592,7 @@ icon.large {
 					<icon class="large entypo-briefcase"></icon>
 				</div>
 				<div class="col-xs-10">
-					<h2 class="section-title">Work Experience</h2>
+					<h2 class="section-title" style="margin-top: 0.333em;">Work Experience</h2>
 				</div>
 			</div>
 		</div>
@@ -625,10 +633,10 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						1/12
+						1/2012
 					</span>
 					<span class="endDate">
-						- 11/12
+						- 11/2012
 					</span>
 				</div>
 				<div class="website">
@@ -647,10 +655,10 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						4/11
+						4/2011
 					</span>
 					<span class="endDate">
-						- 2/12
+						- 2/2012
 					</span>
 				</div>
 				<div class="website">
@@ -670,10 +678,10 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="startDate">
-						3/09
+						3/2010
 					</span>
 					<span class="endDate">
-						- 4/10
+						- 4/2011
 					</span>
 				</div>
 				<div class="website">
@@ -741,7 +749,7 @@ icon.large {
 				</ul>
 			</div>
 			<div class="item">
-				<h3 class="name">Web/App Development</h3>
+				<h3 class="name">Other Technologies</h3>
 				<ul class="keywords">
 					<li>Angular 1.4.x</li>
 					<li>XAML (WPF/Silverlight)</li>
@@ -760,7 +768,7 @@ icon.large {
 					<icon class="large entypo-graduation-cap"></icon>
 				</div>
 				<div class="col-xs-10">
-					<h2 class="section-title">Education</h2>
+					<h2 class="section-title" >Education</h2>
 				</div>
 			</div>
 		</div>
@@ -775,7 +783,7 @@ icon.large {
 				</div>
 				<div class="date">
 					<span class="endDate">
-						Graduated 4/11
+						Graduated 4/2011
 					</span>
 				</div>
 			</div>
