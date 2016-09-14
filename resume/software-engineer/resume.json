@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Jason Roebuck",
+    "label": "Software Engineer",
+    "picture": "http://www.roebuckgis.com/headshot.jpg",
+    "email": "jtroe@me.com",
+    "phone": "(256) 786-9276",
+    "summary": "I'm passionate about education, and making technology work for people.  Folks know me as GeoJson becuase of my love of the nexus of maps and technology.",
+    "location": {
+      "address": "414 West Ashby Drive",
+      "postalCode": "ID 83646",
+      "city": "Meridian",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "jtroe",
+        "url": "http://github.com/jtroe"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "geojson",
+        "url": "http://linkedin.com/in/geojson"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resource Data, Inc.",
+      "position": "Senior Programmer/Analyst (GIS)",
+      "website": "http://www.resdat.com",
+      "startDate": "2012-12-03",
+      "summary": "I develop custom business solutions using industry best-practices, with a strong emphasis on geospatial technologies",
+      "highlights": [
+        "Developer, Geospatial Lead for AlertSense from April 2016; Designed and implemented geofencing capability for alert triggering, display and management of customer geospatial data including asset and user locations; contributed as a member of an agile full-stack development team.",
+        "Lead Developer for J.R. Simplot Company Corporate GIS Division from May 2015 through March 2016; successfully upgraded corporate GIS infrastructure; coordinated upgrade effort across multiple teams to ensure required applications updated in sync; implemented Portal for ArcGIS across Enterrpise; Rewrote legacy application directory (Silverlight) as Angular 1.4.x app as pilot and proof-of-concept; Architected and built automated aerial imagery processing solution replacing a collection of manually coordinated scripts.",
+        "Lead Developer for Alaska Gasline Development Corporation GIS Division from January 2013 through May 2015; developed and maintained custom GIS web portal which provides access to webmaps and metadata from Enterprise GIS infrastructure; directed infrastructure team in proper maintenance of GIS assets; provided recommendations to business; utilized and enforced industry standards for data governance and development workflows."
+      ]
+    },
+    {
+      "company": "City of Auburn",
+      "position": "Programmer/Analyst (GIS)",
+      "website": "http://www.auburnalabama.org",
+      "startDate": "2012-01-01",
+      "endDate": "2012-11-30",
+      "summary": "Chiefly responsible for city's interactive mapping applications. Led development of a new general-purpose, public-facing web application.  Developed new data-driven enterprise mapping application for water quality data management, replacing a legacy spreadsheet workflow with multiple potential points of failure and lack of organizational transparency."
+    },
+    {
+      "company": "Alexander City, Public Works",
+      "position": "GIS Coordinator",
+      "website": "http://www.alexandercityonline.com",
+      "startDate": "2011-04-01",
+      "endDate": "2012-02-15",
+      "summary": "Responsible for city-wide GIS infrastructure, data management, and policy. Successfully led campaign to organize City's Information Technology department. Instrumental in making key design decisions. Laid foundation for city's eventual adoption of enterprise GIS."
+    },
+    {
+      "company": "BYU Harold B. Lee Library",
+      "position": "GIS Specialist",
+      "website": "http://lib.byu.edu/",
+      "startDate": "2010-03-01",
+      "endDate": "2011-04-10",
+      "summary": "Researched, designed, and prototyped implementation of ArcGIS Enterprise platform for library-wide use. Worked directly with Geospatial Librarian to gather requirements for implementation."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "C#.NET",
+        "Ruby",
+        "Python",
+        "JavaScript",
+        "T-SQL",
+        "Java"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Jenkins CI",
+        "Git/GitHub",
+        "Rake",
+        "MSBuild",
+        "GIS data and infrastructure management",
+        "TFS"
+      ]
+    },
+    {
+      "name": "Systems Administration",
+      "keywords": [
+        "Microsoft SQL Server 2008+",
+        "Windows Server",
+        "ArcGIS Server"
+      ]
+    },
+    {
+      "name": "Other Technologies",
+      "keywords": [
+        "HTML/CSS",
+        "Angular",
+        "JQuery",
+        "Bootstrap",
+        "Leaflet",
+        "ESRI ArcGIS Platform",
+        "XAML (WPF/Silverlight)",
+        "Nancy",
+        "Visual Studio"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Brigham Young University",
+      "area": "Geography, Geographic Information Systems",
+      "studyType": "Bachelor of Science",
+      "endDate": "2011-04-01"
+    }
+  ]
+}
