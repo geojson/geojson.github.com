@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jason Roebuck",
-    "label": "Software Engineer",
+    "label": "Software Engineer, Full-stack Web Developer",
     "picture": "http://www.roebuckgis.com/headshot.jpg",
     "email": "jtroe@me.com",
-    "phone": "(256) 786-9276",
-    "summary": "I'm passionate about life-long learning, and making technology work for people.  Folks know me as GeoJson because of my love of the nexus of maps and technology.",
+    "phone": "(208) 546-9276",
+    "summary": "I'm passionate about life-long learning, and making technology work for people.",
     "location": {
       "address": "414 West Ashby Drive",
       "postalCode": "ID 83646",
@@ -20,8 +20,8 @@
       },
       {
         "network": "LinkedIn",
-        "username": "geojson",
-        "url": "http://linkedin.com/in/geojson"
+        "username": "jtroebuck",
+        "url": "http://linkedin.com/in/jtroebuck"
       }
     ]
   },
@@ -29,13 +29,14 @@
     {
       "company": "Resource Data, Inc.",
       "position": "Senior Programmer/Analyst (GIS)",
-      "website": "http://www.resdat.com",
+      "website": "https://www.resdat.com",
       "startDate": "2012-12-03",
-      "summary": "I develop custom business solutions using industry best-practices, with a strong emphasis on geospatial technologies",
+      "summary": "I develop successful custom business solutions using industry best-practices, many using Geospatial technology",
       "highlights": [
+        "Developer at Idaho Power Company modernizing legacy internal applications using a new .NET Core MVC and WebAPI framework.",
         "Developer, Geospatial Lead for AlertSense from April 2016; Designed and implemented geofencing capability for alert triggering, display and management of customer geospatial data including asset and user locations; contributed as a member of an agile full-stack development team.",
-        "Lead Developer for J.R. Simplot Company Corporate GIS Division from May 2015 through March 2016; successfully upgraded corporate GIS infrastructure; coordinated upgrade effort across multiple teams to ensure required applications updated in sync; implemented Portal for ArcGIS across Enterrpise; Rewrote legacy application directory (Silverlight) as Angular 1.4.x app as pilot and proof-of-concept; Architected and built automated aerial imagery processing solution replacing a collection of manually coordinated scripts.",
-        "Lead Developer for Alaska Gasline Development Corporation GIS Division from January 2013 through May 2015; developed and maintained custom GIS web portal which provides access to webmaps and metadata from Enterprise GIS infrastructure; directed infrastructure team in proper maintenance of GIS assets; provided recommendations to business; utilized and enforced industry standards for data governance and development workflows."
+        "Technical Lead at J.R. Simplot Company's corporate GIS efforts from March 2015-February 2016; successfully upgraded corporate GIS infrastructure; coordinated upgrade effort across multiple teams to ensure required applications updated in sync; implemented Portal for ArcGIS across Enterrpise; Rewrote legacy application directory (Silverlight) as Angular 1.4.x app as pilot and proof-of-concept; Architected and built automated aerial imagery processing solution replacing a collection of manually coordinated scripts.",
+        "Technical Lead for Alaska Gasline Development Corporation GIS Division from January 2013 through May 2015; developed and maintained custom GIS web portal which provides access to webmaps and metadata from Enterprise GIS infrastructure; directed infrastructure team in proper maintenance of GIS assets; provided recommendations to business; utilized and enforced industry standards for data governance and development workflows."
       ]
     },
     {
@@ -59,7 +60,7 @@
       "position": "GIS Specialist",
       "website": "http://lib.byu.edu/",
       "startDate": "2010-03-01",
-      "endDate": "2011-04-10",
+      "endDate": "2011-04-01",
       "summary": "Researched, designed, and prototyped implementation of ArcGIS Enterprise platform for library-wide use. Worked directly with Geospatial Librarian to gather requirements for implementation."
     }
   ],
@@ -70,42 +71,49 @@
         "C#.NET",
         "Ruby",
         "Python",
+        "HTML",
+        "XAML",
         "JavaScript",
+        "TypeScript",
+        "Powershell",
         "T-SQL",
         "Java"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Operations / Administration",
       "keywords": [
         "Jenkins CI",
         "Git/GitHub",
-        "Rake",
-        "MSBuild",
-        "GIS data and infrastructure management",
-        "TFS"
-      ]
-    },
-    {
-      "name": "Systems Administration",
-      "keywords": [
-        "Microsoft SQL Server 2008+",
+        "VSTS",
+        "Microsoft SQL Server",
         "Windows Server",
-        "ArcGIS Server"
+        "Azure",
+        "AWS",
+        "Rake"
       ]
     },
     {
-      "name": "Other Technologies",
+      "name": "Frameworks / Libraries",
       "keywords": [
-        "HTML/CSS",
         "Angular",
-        "JQuery",
+        "Knockout",
+        "jQuery",
         "Bootstrap",
-        "Leaflet",
+        "NUnit",
+        "Moq",
+        "Leaflet"
+      ]
+    },
+    {
+      "name": "Other Concepts",
+      "keywords": [
+        "CSS",
+        "Database Design/Development",
+        "MVC/WebAPI",
         "ESRI ArcGIS Platform",
-        "XAML (WPF/Silverlight)",
-        "Nancy",
-        "Visual Studio"
+        "Visual Studio",
+        "Software Licensing"
       ]
     }
   ],
